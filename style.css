@@ -37,3 +37,19 @@ h1 {
     background-color: rgba(0, 0, 0, 0.3);
     padding: 1vh 1vw;
 }
+
+.navbar-dark .navbar-brand {
+    color: #ffffff;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.85);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.utbildningCarousel {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }

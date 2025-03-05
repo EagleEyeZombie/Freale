@@ -10,21 +10,28 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">Utbildning</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.axxell.fi/sv/" target="_blank">Axxell Hemsida</a>
-                    </li>
-                </ul>
-            </div>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="https://www.axxell.fi/sv/" target="_blank">
+            <img src="axxell-new-2.webp" alt="Axxell Logo" height="40" class="d-inline-block align-top">
+        </a>
+        <a class="navbar-brand" href="#">Programutvecklare</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#om-utbildningen">Om utbildningen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sok-utbildningen">Sök till utbildningen</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
     <!-- Hero Section -->
     <header class="hero text-white text-center py-5">
@@ -35,25 +42,183 @@
         </div>
     </header>
 
-    <!-- Om utbildningen -->
-    <section class="py-5">
-        <div class="container">
-            <h2 class="text-center">Om utbildningen</h2>
-            <p class="text-center">Här kan du läsa om kursinnehåll, karriärmöjligheter och vad utbildningen erbjuder.</p>
-        </div>
-    </section>
 
-    <!-- Sök till utbildningen -->
-    <section class="bg-light py-5">
-        <div class="container">
-            <h2 class="text-center">Sök till utbildningen</h2>
-            <p class="text-center">Läs mer om hur du kan ansöka och vad som krävs för att bli antagen.</p>
+<!-- Om utbildningen -->
+<section id="om-utbildningen" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Om utbildningen</h2>
+        <div class="row">
+            <div class="col-lg-7">
+                <h4>Det här lär du dig!</h4>
+                <p>Som programutvecklare blir du expert på digital kommunikation. Genom teoretiska och praktiska övningar lär du dig programmera, bygga nätverk och hemsidor samt betjäna kunder professionellt.</p>
+                <p>Vi satsar på webbdesign och programmering inom Javascript och PHP. Vi utbildar mångsidiga webbutvecklare som behärskar såväl design som programmering.</p>
+                
+                <h4 class="mt-4">Så här studerar du</h4>
+                <p>Studierna består av närstudier på Bangatan 75 i moderna datasalar och inlärningsperioder på arbetsplatser (UA). Arbetslivsperioderna ger dig viktiga kontakter för framtida arbetsmöjligheter.</p>
+                
+                <h4 class="mt-4">Vad kan jag göra efter studierna?</h4>
+                <p>En programutvecklarexamen ger goda möjligheter i arbetslivet och till fortsatta studier på högskolor! Du får kunskap som behövs inom e-handel, webbmarknadsföring och dataservice i den moderna företagsvärlden.</p>
+            </div>
+            <div class="col-lg-5 utbildningCarousel">
+                <div id="utbildningCarousel" class="carousel slide mt-3 mt-lg-0" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#utbildningCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#utbildningCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#utbildningCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner rounded">
+                        <div class="carousel-item active">
+                            <img src="1.jpg" class="d-block w-100" alt="Programutvecklare studerande">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="2.jpg" class="d-block w-100" alt="Webbutveckling">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="3.jpg" class="d-block w-100" alt="Datasalar">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
+
+<!-- Sök till utbildningen -->
+<section id="sok-utbildningen" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Sök till utbildningen</h2>
+        <div class="row">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="card h-100">
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0">Utbildningsinformation</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5>Grunduppgifter</h5>
+                        <div class="mb-3">
+                            <p><strong>Utbildningens namn:</strong> Programutvecklare - Grundexamen i informations- och kommunikationsteknik</p>
+                            <p><strong>Yrkesbenämning:</strong> Programutvecklare</p>
+                            <p><strong>Examen:</strong> Grundexamen i informations- och kommunikationsteknik</p>
+                            <p><strong>Språk:</strong> Svenska</p>
+                            <p><strong>Typ:</strong> Grundexamen</p>
+                            <p><strong>Bransch:</strong> De tekniska områdena</p>
+                            <p><strong>Undervisningsform:</strong> Närstudier</p>
+                            <p><strong>Utbildningen börjar:</strong> Hösten 2025</p>
+                        </div>
+                        <h5>Kontaktpersoner</h5>
+                        <div class="mb-3">
+                            <p><strong>Lärare:</strong> Martin Molnár</p>
+                            <p><strong>Telefon:</strong> +358 44 739 7439</p>
+                            <p><strong>E-post:</strong> Martin.Molnar@axxell.fi</p>
+                        </div>
+                        <h5>Ansökan</h5>
+                        <p>Vi har kontinuerlig ansökan till alla våra utbildningar. Det är möjligt att hoppa på utbildningen under pågående läsår.</p>
+                        <p>Fyll i blanketten bredvid så tar examenshandledaren kontakt med dig så fort som möjligt.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0">Ansökningsblankett</h4>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <h5 class="mb-3">1. Grunduppgifter</h5>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label for="fornamn" class="form-label">Samtliga förnamn *</label>
+                                    <input type="text" class="form-control" id="fornamn" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="efternamn" class="form-label">Efternamn *</label>
+                                    <input type="text" class="form-control" id="efternamn" required>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label for="personid" class="form-label">Födelsedatum och signum *</label>
+                                    <input type="text" class="form-control" id="personid" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="modersmal" class="form-label">Modersmål *</label>
+                                    <select class="form-select" id="modersmal" required>
+                                        <option value="" selected disabled>Välj språk</option>
+                                        <option value="svenska">Svenska</option>
+                                        <option value="finska">Finska</option>
+                                        <option value="engelska">Engelska</option>
+                                        <option value="annat">Annat</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-12">
+                                    <label for="adress" class="form-label">Gatuadress *</label>
+                                    <input type="text" class="form-control" id="adress" required>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <label for="postnummer" class="form-label">Postnummer *</label>
+                                    <input type="text" class="form-control" id="postnummer" required>
+                                </div>
+                                <div class="col-md-8">
+                                    <label for="postanstalt" class="form-label">Postanstalt *</label>
+                                    <input type="text" class="form-control" id="postanstalt" required>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label for="telefon" class="form-label">Telefonnummer *</label>
+                                    <input type="tel" class="form-control" id="telefon" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="epost" class="form-label">E-postadress *</label>
+                                    <input type="email" class="form-control" id="epost" required>
+                                </div>
+                            </div>
+                            
+                            <h5 class="mt-4 mb-3">2. Tidigare utbildning</h5>
+                            <div class="mb-3">
+                                <label for="grundutbildning" class="form-label">Grundutbildning *</label>
+                                <select class="form-select" id="grundutbildning" required>
+                                    <option value="" selected disabled>Välj ett alternativ</option>
+                                    <option value="ej-slutford">Ej slutförd grundutbildning</option>
+                                    <option value="grundskola">Grundskolans avgångsbetyg</option>
+                                    <option value="gymnasium">Gymnasiets avgångsbetyg</option>
+                                    <option value="folkskola">Folkskola / Mellanskola</option>
+                                    <option value="utomlands">Utbildning utomlands</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="examen" class="form-label">Examen</label>
+                                <input type="text" class="form-control" id="examen">
+                            </div>
+                            <div class="mb-3">
+                                <label for="examen-ar" class="form-label">Tidigare examen årtal</label>
+                                <input type="number" class="form-control" id="examen-ar">
+                            </div>
+                            
+                            <h5 class="mt-4 mb-3">3. Motivering</h5>
+                            <div class="mb-3">
+                                <label for="motivering" class="form-label">Varför vill du studera till programutvecklare? *</label>
+                                <textarea class="form-control" id="motivering" rows="4" required></textarea>
+                            </div>
+                            
+                            <div class="d-grid mt-4">
+                                <button type="submit" class="btn btn-primary btn-lg">Skicka ansökan</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
-        <p>Kontakt: info@axxell.fi | Telefon: +358 123 456 789</p>
+        <p>Kontakt: Martin.Molnar@axxell.fi | Telefon: +358 44 739 7439</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
