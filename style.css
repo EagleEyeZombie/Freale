@@ -2,5 +2,38 @@ body {
     background-color: #f8f9fa;
 }
 h1 {
-    color: #007bff;
+    color: red;
+    font-size: 100px;
+}
+
+.hero {
+    
+    background-color: black;
+    background-image: url("image1.avif");
+    background-repeat: repeat;
+    background-size: contain;
+    height: 75vh;
+    
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#header_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 65vh;    
+    
+}
+
+#header_div h1 {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 1vh 1vw;
+}
+
+#header_div p {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 1vh 1vw;
 }
